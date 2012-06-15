@@ -8,5 +8,7 @@ libexec/git-core
 /lib/Error.pm
 /lib/Git.pm
 /lib/Git/I18N.pm
+/lib/Git/SVN/Fetcher.pm
+/lib/Git/SVN/Prompt.pm
 /lib/perl5/5.8.8/CPAN/Config.pm*
 /share/gitweb/

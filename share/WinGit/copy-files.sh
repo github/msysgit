@@ -66,6 +66,10 @@ tar xf - &&
 rm -rf bin/cvs.exe &&
 (test ! -f $MSYSGITROOT/lib/Git.pm || cp -u $MSYSGITROOT/lib/Git.pm lib/perl5/site_perl/Git.pm) &&
 test -f lib/perl5/site_perl/Git.pm &&
+mkdir -p lib/perl5/site_perl/Git/SVN &&
+cp $MSYSGITROOT/lib/Git/I18N.pm lib/perl5/site_perl/Git/ &&
+cp $MSYSGITROOT/lib/Git/SVN/Fetcher.pm lib/perl5/site_perl/Git/SVN/ &&
+cp $MSYSGITROOT/lib/Git/SVN/Prompt.pm lib/perl5/site_perl/Git/SVN/ &&
 gitmd5=$(md5sum bin/git.exe | cut -c 1-32) &&
 mkdir etc &&
 if test -z "$DONT_REMOVE_BUILTINS"
