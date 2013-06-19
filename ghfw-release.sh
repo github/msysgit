@@ -46,7 +46,8 @@ die "Local PortableGit branch doesn't match origin/PortableGit"
 
 echo "Building git..."
 cd /git &&
-make install >/dev/null ||
+make install >/dev/null &&
+(cd ./contrib/subtree && make install INSTALL=/bin/install prefix=) ||
 die "Failed to build git"
 
 echo "Building Portable Git..."
