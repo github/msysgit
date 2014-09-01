@@ -33,6 +33,7 @@ AppPublisher=The Git Development Community
 AppPublisherURL={#APP_URL}
 AppVersion={#APP_VERSION}
 ChangesEnvironment=yes
+CloseApplications=no
 DefaultDirName={pf}\{#APP_NAME}
 DisableDirPage=auto
 DefaultGroupName={#APP_NAME}
@@ -878,7 +879,7 @@ begin
                     'Are you sure you want to continue?'
                 ,   mbConfirmation
                 ,   MB_YESNO
-                ,   IDNO
+                ,   IDYES
                 )=IDYES);
             end else begin
                 Result:=(SuppressibleMsgBox(
