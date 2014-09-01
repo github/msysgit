@@ -87,11 +87,11 @@ bin/md5sum.exe
 bin/mkdir.exe
 bin/msmtp.exe
 bin/msys-1.0.dll
-bin/msys-crypto-0.9.8.dll
+bin/msys-crypto-1.0.0.dll
 bin/msys-minires.dll
 bin/msys-perl5_8.dll
 bin/msys-regex-1.dll
-bin/msys-ssl-0.9.8.dll
+bin/msys-ssl-1.0.0.dll
 bin/msys-z.dll
 bin/msysltdl-3.dll
 bin/mv.exe
