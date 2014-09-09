@@ -79,7 +79,3 @@
 [mergetool "p4"]
 	cmd = \"c:/program files/Perforce/p4merge.exe\" \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 	trustExitCode = false
-
-[remote "origin"]
-	fetch = +refs/pull/*/head:refs/remotes/origin/pr/*
-	fetch = +refs/heads/*:refs/remotes/origin/*
