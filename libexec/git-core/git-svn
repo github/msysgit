@@ -9,7 +9,7 @@ use vars qw/	$AUTHOR $VERSION
 		$sha1 $sha1_short $_revision $_repository
 		$_q $_authors $_authors_prog %users/;
 $AUTHOR = 'Eric Wong <normalperson@yhbt.net>';
-$VERSION = '1.9.4.msysgit.1';
+$VERSION = '1.9.4.msysgit.2.187.g0d6f7c8';
 
 use Carp qw/croak/;
 use Digest::MD5;
